@@ -10,6 +10,54 @@
             "m_Password": null,
             "m_Apikey": "d8c9d314696e9d411636f9aca4c2e03143bc32ed",
             "m_Note": "It may take up to 5 minutes for this key to become active"
+        },
+        {
+            "m_ServiceID": "SpeechToTextV1",
+            "m_URL": "https://stream.watsonplatform.net/speech-to-text/api",
+            "m_User": "8f180a7d-45ba-4c4e-8bfe-60c640a0929b",
+            "m_Password": "37iXv4pSgKte",
+            "m_Apikey": null,
+            "m_Note": null
+        },
+        {
+            "m_ServiceID": "TextToSpeechV1",
+            "m_URL": "https://stream.watsonplatform.net/text-to-speech/api",
+            "m_User": "73203558-8eea-44d7-81f5-8c544cc00cd7",
+            "m_Password": "fObBcIvgVh5P",
+            "m_Apikey": null,
+            "m_Note": null
+        },
+        {
+            "m_ServiceID": "ToneAnalyzerV3",
+            "m_URL": "https://gateway.watsonplatform.net/tone-analyzer/api",
+            "m_User": "780c1e61-81ff-4798-a004-251d82a39970",
+            "m_Password": "SEhhsViMVBgI",
+            "m_Apikey": null,
+            "m_Note": null
+        },
+        {
+            "m_ServiceID": "DialogV1",
+            "m_URL": "https://gateway.watsonplatform.net/dialog/api",
+            "m_User": "3864ea80-af7b-478a-bed2-a4a2af8d3de1",
+            "m_Password": "HEfXX77LsEM6",
+            "m_Apikey": null,
+            "m_Note": null
+        },
+        {
+            "m_ServiceID": "LanguageTranslationV1",
+            "m_URL": "https://gateway.watsonplatform.net/language-translation/api",
+            "m_User": "2e0fdf7a-8544-428d-9d1c-856619c85411",
+            "m_Password": "KT3FRCZLkSQo",
+            "m_Apikey": null,
+            "m_Note": null
+        },
+        {
+            "m_ServiceID": "NaturalLanguageClassifierV1",
+            "m_URL": "https://gateway.watsonplatform.net/natural-language-classifier/api",
+            "m_User": "6f2c1cdc-a309-4933-9f90-5e1642935105",
+            "m_Password": "8Px3stwsYECI",
+            "m_Apikey": null,
+            "m_Note": null
         }
     ],
     "m_Variables": []
