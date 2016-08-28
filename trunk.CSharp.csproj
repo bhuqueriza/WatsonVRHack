@@ -522,6 +522,9 @@
     <None Include="Assets\Watson\ThirdParty\TouchScript\Shaders\DebugNoDepthTest.shader" />
     <None Include="Assets\Watson\ThirdParty\TouchScript\license.txt" />
     <None Include="Assets\Watson\ThirdParty\WebSocketSharp\LICENSE.txt" />
+    <None Include="Assets\_Shaders\UnlitColoredDoubleSided.shader" />
+    <None Include="Assets\_Shaders\UnlitColoredTransparent.shader" />
+    <None Include="Assets\_Shaders\UnlitColoredTransparentAlt.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
