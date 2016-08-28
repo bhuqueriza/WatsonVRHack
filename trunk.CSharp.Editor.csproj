@@ -93,10 +93,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="trunk.CSharp.Plugins.csproj">
-      <Project>{9E01F79E-AE9C-9DA3-0177-150013554DB8}</Project>
-      <Name>trunk.CSharp.Plugins</Name>
-    </ProjectReference>
     <ProjectReference Include="trunk.CSharp.csproj">
       <Project>{714D6F45-D948-65C6-9402-1907B23B8168}</Project>
       <Name>trunk.CSharp</Name>
@@ -109,27 +105,6 @@
     <Compile Include="Assets\SteamVR\Editor\SteamVR_SkyboxEditor.cs" />
     <Compile Include="Assets\SteamVR\Editor\SteamVR_Update.cs" />
     <Compile Include="Assets\SteamVR_Unity_Toolkit\Scripts\Controls\2D\RadialMenu\Editor\RadialMenuInspector.cs" />
-    <Compile Include="Assets\Tim\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
-    <Compile Include="Assets\Tim\Editor\ImageEffects\AntialiasingEditor.cs" />
-    <Compile Include="Assets\Tim\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
-    <Compile Include="Assets\Tim\Editor\ImageEffects\BloomEditor.cs" />
-    <Compile Include="Assets\Tim\Editor\ImageEffects\CameraMotionBlurEditor.cs" />
-    <Compile Include="Assets\Tim\Editor\ImageEffects\ColorCorrectionCurvesEditor.cs" />
-    <Compile Include="Assets\Tim\Editor\ImageEffects\ColorCorrectionLookupEditor.cs" />
-    <Compile Include="Assets\Tim\Editor\ImageEffects\CreaseShadingEditor.cs" />
-    <Compile Include="Assets\Tim\Editor\ImageEffects\DepthOfFieldDeprecatedEditor.cs" />
-    <Compile Include="Assets\Tim\Editor\ImageEffects\DepthOfFieldEditor.cs" />
-    <Compile Include="Assets\Tim\Editor\ImageEffects\EdgeDetectionEditor.cs" />
-    <Compile Include="Assets\Tim\Editor\ImageEffects\NoiseAndGrainEditor.cs" />
-    <Compile Include="Assets\Tim\Editor\ImageEffects\SunShaftsEditor.cs" />
-    <Compile Include="Assets\Tim\Editor\ImageEffects\TonemappingEditor.cs" />
-    <Compile Include="Assets\Tim\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
-    <Compile Include="Assets\Tim\Editor\TransformReset.cs" />
-    <Compile Include="Assets\Tim\Editor\Water\Water4\GerstnerDisplaceEditor.cs" />
-    <Compile Include="Assets\Tim\Editor\Water\Water4\PlanarReflectionEditor.cs" />
-    <Compile Include="Assets\Tim\Editor\Water\Water4\SpecularLightingEditor.cs" />
-    <Compile Include="Assets\Tim\Editor\Water\Water4\WaterBaseEditor.cs" />
-    <Compile Include="Assets\Tim\Editor\Water\Water4\WaterEditorUtility.cs" />
     <Compile Include="Assets\Watson\Scripts\Editor\Build.cs" />
     <Compile Include="Assets\Watson\Scripts\Editor\ConfigEditor.cs" />
     <Compile Include="Assets\Watson\Scripts\Editor\DrawerHelper.cs" />
@@ -163,28 +138,6 @@
     <Compile Include="Assets\Watson\ThirdParty\TouchScript\Editor\Utils\PropertyDrawers\ToggleLeftDrawer.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
-    <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
-    <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
-    <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
-    <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
-    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-    <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
-    <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
-    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
-    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
-    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
-    <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
-    <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
-    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
-    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
-    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
-    <None Include="Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
-    <None Include="Assets\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
-    <None Include="Assets\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
-    <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
-    <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
-    <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />

@@ -38,9 +38,10 @@ GameObject:
   - 4: {fileID: 4000011170725064}
   - 33: {fileID: 33000011110810856}
   - 23: {fileID: 23000010713833678}
+  - 114: {fileID: 114000013087662742}
   m_Layer: 0
   m_Name: Photo
-  m_TagString: Untagged
+  m_TagString: Pics
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,7 +75,7 @@ GameObject:
   - 114: {fileID: 114000011556258798}
   m_Layer: 0
   m_Name: PictureFrame2
-  m_TagString: Untagged
+  m_TagString: Fire
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -274,8 +275,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 626abb78263aa4c43857dffc74e70dc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pictureFrame: {fileID: 114000011556258798}
+  pictureFrame: {fileID: 0}
   origin: {x: 0, y: 0, z: 0}
+--- !u!114 &114000013087662742
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011317956232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8b6981155832442ae7ef021c1aa1cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: /Photos/Erin-T-Siggraph.png
+  targetMaterial: {fileID: 2100000, guid: 80be49880a53d014cb8515dedfd8423d, type: 2}
 --- !u!114 &114000013773977066
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -310,7 +324,7 @@ MonoBehaviour:
   onGrabCollisionDelay: 0
   isUsable: 0
   useOnlyIfGrabbed: 0
-  holdButtonToUse: 1
+  holdButtonToUse: 0
   pointerActivatesUseAction: 0
   rumbleOnUse: {x: 0, y: 0}
   allowedUseControllers: 0

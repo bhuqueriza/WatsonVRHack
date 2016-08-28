@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System;
 using System.Collections;
 
 public class PictureFrame : MonoBehaviour {
@@ -6,14 +7,15 @@ public class PictureFrame : MonoBehaviour {
     public PictureFrame pictureFrame;
     public Vector3 origin;
 
-	// Use this for initialization
-	void Start ()
+    // Use this for initialization
+    void Start ()
     {
         origin = transform.position;
     }
-	
-	// Update is called once per frame
-	void Update ()
+
+    // Update is called once per frame
+
+    void Update ()
     {
 
 	}
