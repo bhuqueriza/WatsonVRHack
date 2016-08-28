@@ -208,6 +208,7 @@ namespace VRTK
             OnInteractableObjectGrabbed(SetInteractableObjectEvent(currentGrabbingObject));
             ForceReleaseGrab();
             RemoveTrackPoint();
+            ToggleKinematic(false);
             grabbingObject = currentGrabbingObject;
             SetTrackPoint(grabbingObject);
             if (!isSwappable)

@@ -506,6 +506,7 @@
     <Compile Include="Assets\Watson\ThirdParty\WebSocketSharp\WebSocketState.cs" />
     <Compile Include="Assets\Watson\Travis\TravisBuild.cs" />
     <Compile Include="Assets\Watson\Travis\TravisIntegrationTests.cs" />
+    <Compile Include="Assets\_Scripts\PictureFrame.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
