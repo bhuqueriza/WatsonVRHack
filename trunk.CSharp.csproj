@@ -191,6 +191,9 @@
     <Compile Include="Assets\SteamVR_Unity_Toolkit\Scripts\VRTK_Simulator.cs" />
     <Compile Include="Assets\SteamVR_Unity_Toolkit\Scripts\VRTK_TouchpadWalking.cs" />
     <Compile Include="Assets\SteamVR_Unity_Toolkit\Scripts\VRTK_UIPointer.cs" />
+    <Compile Include="Assets\Tim\Cardboard VR Camera And Galery Viewer\Scripts\ChangeMask.cs" />
+    <Compile Include="Assets\Tim\Cardboard VR Camera And Galery Viewer\Scripts\LoadGallery.cs" />
+    <Compile Include="Assets\Tim\Cardboard VR Camera And Galery Viewer\Scripts\LookAtObjective.cs" />
     <Compile Include="Assets\Watson\Examples\ServiceExamples\Scripts\ExampleAlchemyDataNews.cs" />
     <Compile Include="Assets\Watson\Examples\ServiceExamples\Scripts\ExampleAlchemyLanguage.cs" />
     <Compile Include="Assets\Watson\Examples\ServiceExamples\Scripts\ExampleConversation.cs" />
