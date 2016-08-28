@@ -5,7 +5,9 @@ using System.Collections;
 public class PictureFrame : MonoBehaviour {
 
     public PictureFrame pictureFrame;
+    public GameObject SceneVW;
     public Vector3 origin;
+    public Material sky;
 
     // Use this for initialization
     void Start ()
@@ -26,6 +28,12 @@ public class PictureFrame : MonoBehaviour {
         {
             Destroy(gameObject);
             PictureFrame newFrame = Instantiate(pictureFrame, origin, Quaternion.identity) as PictureFrame;
+        }
+
+        if (col.gameObject.tag == "Head")
+        {
+            SceneVW.SetActive(false);
+            RenderSettings.skybox = sky;
         }
     }
 }
