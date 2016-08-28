@@ -221,6 +221,7 @@ namespace VRTK
         {
             OnInteractableObjectUngrabbed(SetInteractableObjectEvent(previousGrabbingObject));
             RemoveTrackPoint();
+            ToggleKinematic(false);
             grabbedSnapHandle = null;
             grabbingObject = null;
             LoadPreviousState();
